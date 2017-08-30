@@ -1,4 +1,4 @@
-var airplane = 'airplane';
+/*var airplane = 'airplane';
 var train = 'train';
 var october1 = 'October 1';
 var october7 = 'October 7';
@@ -31,4 +31,10 @@ if ('September 1'){
 
 if ('September 7'){
   alert('Your destination is San Diego!  Enjoy the sunny weather!!');
+}*/
+
+var visit = ["Barcelona", "Casablanca", "Tokyo"];
+
+for (var i = 0; i < visit.length; i++) {
+console.log('I would love to visit ' + visit[i]);
 }
